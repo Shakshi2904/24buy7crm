@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0a0f1e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #00c3ff;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+/* Table Container */
+.table-container {
+    width: 100%;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 195, 255, 0.2);
+}
+
+/* Table Styling */
+.location-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: transparent;
+}
+
+.location-table th, 
+.location-table td {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.location-table th {
+    background: #00c3ff;
+    color: #0a0f1e;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.location-table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.location-table tr:hover {
+    background: rgba(0, 195, 255, 0.2);
+    transition: background 0.3s ease-in-out;
+}
+
+/* No Data Message */
+.no-data {
+    font-size: 1.3rem;
+    color: #ff4d4d;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
